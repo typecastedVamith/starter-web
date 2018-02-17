@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Showcase: dup[</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="" />
+
+
+	<style type="text/css">
+		@-moz-document url-prefix() {
+		    .social-logo-wrapper { -webkit-clip-path: url("#clip-shape");  clip-path: url("#clip-shape"); }
+		}
+		
+		
+		
+	</style>
+	<script type="text/javascript" src="https://s3-ap-southeast-1.amazonaws.com/endcards/js/jquery.js"></script>
+	<script type="text/javascript" src="https://s3-ap-southeast-1.amazonaws.com/endcards/js/core.js"></script>
+</head>
+<body style="background-color: transparent;">
+<div class="wrapper" >
+
+	<!-- #button-wrapper -->
+	
+	
+		<div class="button-wrapper">
+		<div class="social-block">
+		<center><div style="background-color: grey; height: 100%; width: 100%; opacity: 0.4;"><center>
+		<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="42" width="70">	
+	
+			<div class="social-block-inner social-logo-wrapper">
+			</div>
+		</div>
+		<!-- <a href="http://maps.google.com/maps?q=12.9136110,77.6286010" class="shop-btn" onclick="sendevent(60)" target="_blank"><img src="https://s3-ap-southeast-1.amazonaws.com/endcards/img/store.png"></a> -->
+		<Center><a href="http://maps.google.com/?q=yamaha+stores+near+me" class="shop-btn" onclick="sendevent(60)" target="_blank"><img src="https://s3-ap-southeast-1.amazonaws.com/endcards/img/store.png"></a></Center>
+		<br>
+		<Center>
+	
+                   	 <a href="whatsapp://message=say hello?file=https%3A%2F%2Fn6-img-fp.akamaized.net%2Ffree-icon%2Ffacebook-logo-button_318-84980.jpg%3Fsize%3D338c%26ext%3Djpg" target="_blank">
+                        <img src="http://www.iconsdb.com/icons/preview/deep-pink/whatsapp-xxl.png"   width="50">
+                    </a>
+                    <a href="mailto:abhinav@pokkt.com?subject=title&amp;body=content&amp;file=http://videoconverterapp.com/images/email_open.png" target="_blank">
+                        <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Gmail-icon.png"   width="50">
+                    </a>
+                    <a href="share://body=content?file=https://n6-img-fp.akamaized.net/free-icon/facebook-logo-button_318-84980.jpg?size=338c&amp;ext=jpg" target="_blank">
+                        <img src="https://n6-img-fp.akamaized.net/free-icon/facebook-logo-button_318-84980.jpg?size=338c&amp;ext=jpg"   width="50">
+                    </a>
+    	
+		</center>
+		
+	
+	</div>
+	
+	
+	
+	
+
+	</div>
+	<svg width="0" height="0">
+		<defs>
+			<clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
+				<polygon points="0 0, 1 0, 1 1, 0.95 1, 0.95 0.95, 0.05 0.95, 0.05 1, 0 1" />
+			</clipPath>
+		</defs>
+	</svg>
+</div>
+<script type="text/javascript">
+		function sendevent(event_id){ 
+		var url = "http://vdopokktfeed.pokkt.com/api/VideoEventTracker?appId=a2717a45b835b5e9f50284a38d62a74e&offer_id=6830&track_id="+(Math.floor((Math.random() * 10000000000000000)))+"&timestamp="+Date.now()+"&event="+event_id;
+			var xhttp = new XMLHttpRequest();
+			xhttp.open("GET", url, true);
+			xhttp.send();
+		}
+		</script>
+</body>
+
+</html>
